@@ -1,0 +1,16 @@
+{
+  "auth": {
+    "client02d7c20c": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "storage": {
+    "instagrambucket": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}
